@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<h1>Love is in the air</h1>
+
+<div id="head">
+<h1 id="score">Score: <span id="count">0</span></h1>
+</div>
+
+<div id="timer"> <span id="time">Time remaining:</span></div>
+
+<div id="set">
+<div id="questions"></div>
+<div id="answers"><ol id="ol"></ol>
+</div>
+</div>
+
+<div id="startBtn"></div>
+<div id="input"></div>
+
+
+<form>
+    <label>Enter your intials to save your score</label>
+    <input type="text" id="initials">
+    <button id="submit">Submit</button>
+    <button id="clearHighscore">Clear Scores</button>
+</form>
+<ul id="scoreList"></ul>
+<div id="result"></div>
+
+
+<h2 id="correct"></h2>
+<footer id="footer"></footer>
 <script src="./script.js"></script> 
 </body>
 </html>
